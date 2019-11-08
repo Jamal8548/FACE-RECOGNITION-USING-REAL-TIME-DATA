@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		android:layout_weight="0.88"
+		android:orientation="vertical">
+
+		<RelativeLayout
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_weight="0.88">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent">
+
+				<org.opencv.javacv.facerecognition.CameraView
+					android:id="@+id/tutorial3_activity_java_surface_view"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_weight="0.88" />
+
+				<ImageView
+					android:id="@+id/imageView1"
+					android:layout_width="120dp"
+					android:layout_height="140dp"
+					android:src="@drawable/recognition" />
+
+			</LinearLayout>
+
+		</RelativeLayout>
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<RelativeLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+
+			</RelativeLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:weightSum="100">
+
+
+			<ToggleButton
+				android:id="@+id/toggleButton1"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="15"
+				android:text="@string/STrain"
+				android:textOff="@string/STrain"
+				android:textOn="@string/SStopTrain"
+				android:visibility="visible" />
+
+			<ToggleButton
+				android:id="@+id/toggleButtonGrabar"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="15"
+				android:text="Grabar"
+				android:textOff="Rec"
+				android:textOn="Stop"
+				android:visibility="visible" />
+
+			<EditText
+				android:id="@+id/cnicedittext"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_weight="40"
+				android:hint="@string/enter_cnic"
+				android:maxLines="1"/>
+
+			<ImageButton
+				android:id="@+id/imageButton1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="15"
+				android:src="@drawable/ic_stat_camera"
+				android:visibility="visible" />
+
+			<Button
+				android:id="@+id/nextbutton"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="15"
+				android:text="Next"
+				android:textOff="@string/SSearch"
+				android:textOn="@string/SStopSearch"
+				android:visibility="visible" />
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>

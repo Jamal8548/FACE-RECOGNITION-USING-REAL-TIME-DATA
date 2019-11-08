@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Face Recognition using Real Time Data - Beta</string>
+    <string name="BLANK"> </string>
+    <string name="STrain">Train</string>
+    <string name="SViewAll">View All</string>
+    <string name="SSearch">Search</string>
+    <string name="SDelete">Delete</string>
+    <string name="SEnter">Enter face CNIC, then pres Rec</string>
+    <string name="SStopTrain">Stop Training</string>
+    <string name="SStopSearch">Stop Search</string>
+    <string name="Straininig">Training…</string>
+    <string name="SCanntoPredic">More then one face is needed to predict</string>
+    <string name="SIdle">Idle</string>
+    <string name="SFaceName">Person name:</string>
+    <string name="SSearching">Searching</string>
+    <string name="SFrontCamera">Front Camera</string>
+    <string name="SBackCamera">Back Camera</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="person_registration">Person Registration</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="gender">Gender</string>
+    <string name="cnic">CNIC</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="contact_no">Contact No.</string>
+    <string name="email_address">Email Address</string>
+    <string name="department">Department</string>
+    <string name="joining_date">Joining Date</string>
+    <string name="street">Street</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="country">Country</string>
+    <string name="zip_postal_code">Zip/Postal Code</string>
+    <string name="register">Register</string>
+    <string name="update_record">Update Record</string>
+    <string name="delete_record">Delete Record</string>
+    <string name="update_record_text">Update Record</string>
+    <string name="enter_cnic_to_search">Enter CNIC to Search</string>
+    <string name="search">Search</string>
+    <string name="restore_backup">Restore Backup</string>
+    <string name="create_backup">Create backup</string>
+    <string name="backup_and_restore">Backup and Restore</string>
+    <string name="try_again">Reconnect</string>
+    <string name="enter_cnic">Enter CNIC</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="face_recognition_using_real_time_data_login_screen">Face Recognition using Real Time Data - Login Screen</string>
+    <string name="Roleinorganization">Role in Organization</string>
+</resources>

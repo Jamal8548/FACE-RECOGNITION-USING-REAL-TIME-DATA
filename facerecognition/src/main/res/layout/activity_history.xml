@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context="org.opencv.javacv.facerecognition.History">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="100">
+
+        <EditText
+            android:id="@+id/searchbox"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="80"
+            android:textColor="@color/colorWhite"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColorHint="@color/colorWhite"
+            android:paddingLeft="10sp"
+            android:paddingRight="10sp"
+            android:hint="Enter CNIC to Search"
+            android:background="@color/colorPrimary"/>
+        <Button
+            android:id="@+id/searchbutton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:text="Search"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorPrimary"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="100">
+
+        <Button
+            android:id="@+id/id"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="10"
+            android:background="@drawable/border"
+            android:paddingBottom="2dip"
+            android:textColor="@color/colorWhite"
+            android:text="ID ▲"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/date"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="25"
+            android:background="@drawable/border"
+            android:paddingBottom="2dip"
+            android:text="DATE"
+            android:textColor="@color/colorWhite"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/time"
+            android:layout_width="0dp"
+            android:textColor="@color/colorWhite"
+            android:layout_height="fill_parent"
+            android:layout_weight="25"
+            android:background="@drawable/border"
+            android:paddingBottom="2dip"
+            android:text="TIME"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/cnic"
+            android:layout_width="0dp"
+            android:textColor="@color/colorWhite"
+            android:layout_height="fill_parent"
+            android:layout_weight="40"
+            android:background="@drawable/border"
+            android:paddingBottom="2dip"
+            android:text="CNIC"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+    </LinearLayout>
+
+    <ListView
+                android:id="@+id/listview"
+                android:layout_weight="98"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+</LinearLayout>
